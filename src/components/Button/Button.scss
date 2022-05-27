@@ -1,0 +1,26 @@
+.button__container {
+  display: flex;
+  cursor: pointer;
+  z-index: 1;
+  .button__container-button {
+    background: #d5966c;
+    padding: 24px;
+  cursor: pointer;
+
+  }
+  .button__container-input {
+    width: 204px;
+
+    font-family: "Big Shoulders Display";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+
+    letter-spacing: 3.63636px;
+
+    background: #151515;
+    color: #ffffff;
+    border: none;
+  }
+}
