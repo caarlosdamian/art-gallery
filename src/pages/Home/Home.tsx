@@ -4,6 +4,7 @@ import "./Home.scss";
 import hero from "../../assets/desktop/image-hero.jpg";
 import { useLocation } from "react-router-dom";
 import { Button } from "../../components/Button/Button";
+import { HomeMiddle } from "../../sections/HomeMiddle/HomeMiddle";
 
 export const Home = () => {
   const location = useLocation();
@@ -35,6 +36,7 @@ export const Home = () => {
           </div>
         </div>
       </div>
+      <HomeMiddle/>
     </>
   );
 };

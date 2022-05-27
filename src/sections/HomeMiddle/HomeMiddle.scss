@@ -1,0 +1,50 @@
+.home__middle-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 180px 165px;
+
+  .home__middle-top__container {
+    display: flex;
+    justify-content: center;
+    gap: 125px;
+    width: 100%;
+    .home__middle-text__container {
+      width: 350px;
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 32px;
+      .home__middle-header {
+        font-family: "Big Shoulders Display";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 60px;
+        line-height: 60px;
+        /* or 100% */
+
+        text-transform: uppercase;
+
+        /* Almost Black */
+
+        color: #151515;
+      }
+      .home__middle-text{
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 32px;
+        /* or 145% */
+        
+        
+        /* Dark Grey */
+        
+        color: #444444;
+      }
+    }
+  }
+}
