@@ -1,10 +1,11 @@
-import './App.css'
+import './App.scss'
+import { Home } from './pages/Home/Home'
 
 function App() {
 
   return (
     <main className="App">
-      <h1>React App</h1>
+      <Home/>
     </main>
   )
 }
