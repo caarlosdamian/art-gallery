@@ -11,7 +11,7 @@
 
   .home__header-bottom {
     position: absolute;
-    left: 195px;
+    left: 315px;
     top: 280px;
     font-family: "Big Shoulders Display";
     font-style: normal;
@@ -21,6 +21,10 @@
     width: 100%;
     text-transform: uppercase;
     color: #ffffff;
+    @media (max-width: 1440px) {
+      left: 195px;
+      top: 280px;
+    }
     .strong-header {
       color: #151515;
     }
@@ -28,7 +32,7 @@
 
   .home__header {
     position: absolute;
-    left: 210px;
+    left: 315px;
     top: 189px;
     font-family: "Big Shoulders Display";
     font-style: normal;
@@ -38,6 +42,12 @@
     width: 100%;
     text-transform: uppercase;
     color: #ffffff;
+
+    @media (max-width: 1440px) {
+      left: 200px;
+      top: 189px;
+    }
+
     .strong-header_single {
       color: #151515;
       position: relative;
@@ -46,7 +56,7 @@
       color: #151515;
       content: "N";
       position: absolute;
-      width: 50%;
+      width: 65%;
       overflow: hidden;
       color: #ffffff;
       font-weight: 900;

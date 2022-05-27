@@ -1,13 +1,13 @@
-import './App.scss'
-import { Home } from './pages/Home/Home'
+import "./App.scss";
+import { AppRouter } from "./router/AppRouter";
+
 
 function App() {
-
   return (
     <main className="App">
-      <Home/>
+      <AppRouter/>
     </main>
-  )
+  );
 }
 
-export default App
+export default App;
