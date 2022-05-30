@@ -6,5 +6,6 @@ export const Location = () => {
   console.log(location);
   return (
     <div>Location</div>
+    
   )
 }
