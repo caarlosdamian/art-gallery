@@ -1,0 +1,33 @@
+.footer__container {
+  height: 244px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 165px;
+  margin-top: 800px;
+  background: #151515;
+
+  .footer__text {
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    width: 430px;
+    color: #ffffff;
+  }
+  .footer_social-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    .icon {
+      cursor: pointer;
+
+      &:hover {
+        filter: invert(0.5) sepia(1);
+      }
+    }
+  }
+}

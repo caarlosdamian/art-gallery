@@ -2,15 +2,17 @@
   display: flex;
   cursor: pointer;
   z-index: 1;
+  text-decoration: none;
+
   .button__container-button {
     background: #d5966c;
     padding: 24px;
-  cursor: pointer;
-
+    cursor: pointer;
   }
+
   .button__container-input {
     width: 204px;
-
+    cursor: pointer;
     font-family: "Big Shoulders Display";
     font-style: normal;
     font-weight: 800;
@@ -22,5 +24,15 @@
     background: #151515;
     color: #ffffff;
     border: none;
+  }
+
+  &:hover {
+    .button__container-input {
+      background: #d5966c;
+    }
+
+    .button__container-button {
+      background: #151515;
+    }
   }
 }
