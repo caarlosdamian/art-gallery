@@ -3,6 +3,11 @@
   cursor: pointer;
   z-index: 1;
   text-decoration: none;
+   
+  &.absolute{
+    position: absolute;
+    left: 156px;
+  }
 
   .button__container-button {
     background: #d5966c;
