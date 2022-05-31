@@ -6,17 +6,39 @@
   justify-content: center;
   flex-direction: column;
   padding: 180px 165px;
+
+  @media (min-width: 769px) {
+    padding: 20px 40px;
+  }
+
   .home__middle-bottom__container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-top: 900px;
     gap: 30px;
+
+    @media (min-width: 769px) {
+      gap: 11px;
+    }
+
     .home__middle-text__container {
       width: 350px;
       display: flex;
       align-items: flex-start;
       flex-direction: column;
       gap: 32px;
+
+      @media (min-width: 769px) {
+        width: 223px;
+        align-items: flex-end;
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 45px;
+        /* or 90% */
+
+        text-transform: uppercase;
+      }
+
       .home__middle-header {
         font-family: "Big Shoulders Display";
         font-style: normal;
@@ -26,6 +48,7 @@
         text-transform: uppercase;
         color: #151515;
       }
+
       .home__middle-text {
         font-family: "Outfit";
         font-style: normal;
@@ -35,11 +58,17 @@
         color: #444444;
       }
     }
+
     .home__bottom_img_container {
       background: #151515;
       width: 445px;
       height: 377px;
       padding: 65px 48px;
+
+    @media (min-width: 769px) {
+      width: 288px;
+      padding: 85px 28px;
+    }
 
       .home__bottom_header {
         font-family: "Big Shoulders Display";
@@ -50,7 +79,20 @@
         text-transform: uppercase;
         color: #ffffff;
         margin-bottom: 32px;
+
+        @media (min-width: 769px) {
+          font-family: 'Big Shoulders Display';
+          font-style: normal;
+          font-weight: 900;
+          font-size: 50px;
+          line-height: 45px;
+          /* or 90% */
+          
+          text-transform: uppercase;
+        }
+    
       }
+
       .home__bottom_text {
         font-family: "Outfit";
         font-style: normal;
@@ -58,15 +100,27 @@
         font-size: 22px;
         line-height: 32px;
         color: #ffffff;
+
+        @media (min-width: 769px) {
+          font-family: 'Outfit';
+          font-style: normal;
+          font-weight: 300;
+          font-size: 18px;
+          line-height: 28px;
+        }
+    
       }
     }
+
     .home__midle-img0 {
       width: 635px;
     }
+
     .home__midle-img1 {
       grid-column: 1;
       grid-row: 2 / 4;
     }
+
     .home__midle-img2 {
       width: 445px;
     }
